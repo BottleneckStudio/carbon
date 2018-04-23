@@ -3,7 +3,7 @@
 
 #### Installation:
 ```
-$ go get -u github.com/whaangbuu/carbon
+$ go get -u github.com/BottleneckStudio/carbon
 ```
 
 #### For more information, check:
