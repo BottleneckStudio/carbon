@@ -57,8 +57,9 @@ var (
 	currentFrozenTime time.Time
 )
 
-// NewCarbon returns a pointer to a new Carbon instance
-func NewCarbon(t time.Time) *Carbon {
+// New returns the
+// pointer instance of Carbon
+func New(t time.Time) *Carbon {
 	wds := []time.Weekday{
 		time.Saturday,
 		time.Sunday,
